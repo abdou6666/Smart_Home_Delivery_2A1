@@ -24,7 +24,7 @@ query.bindValue(":id",id);
 query.bindValue(":duree",duree);
 query.bindValue(":prix",prix);
 query.bindValue(":date",date);
-return query.exec();  //Test
+return query.exec();  //Teste
 
 }
 QSqlQueryModel * publicite::afficher()
